@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: rgb(36, 35, 35);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 100%;
+ 
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+nav {
+    width: 290px;
+    height: 400px;
+    background-color: rgb(36, 35, 35);
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+section {
+    color: white;
+    width: 95%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: rgb(36, 35, 35);
+    box-sizing: border-box;
+    padding-left: 300px;
+}
+
+ul.menu {
+    list-style-type: none;
+}
+
+ul.menu li {
+    width: 250px;
+    height: 50px;
+    line-height: 30px;
+    background-color: #777;
+    color: white;
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+
+.salvar {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: rgb(24, 170, 19);
+    background-image: url(../img/Save-icon.png);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-size: 20px;
+}
+
+.limpar {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: rgb(22, 10, 133);
+    background-image: url(../img/Go-back-icon.png);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-size: 20px;
+}
+
+.excluir {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: rgb(245, 10, 10);
+    background-image: url(../img/179429.png);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-size: 20px;
+}
+
+
+.campo {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+
+article {
+    color: black;
+    margin: auto;
+    width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
